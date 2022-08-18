@@ -114,7 +114,7 @@ def Calc_Score(Grid):
                         Grid[3][0] = None
                     if Grid[3][3] == Grid[sloupec][radek]:
                         count_mercovka+=1
-                        Grid[3][0] = None
+                        Grid[3][3] = None
 
                         for y in range(1, 3):
                             for x in range(1,3):
